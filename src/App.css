@@ -1,0 +1,29 @@
+.get-started-btn {
+    transition: 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+}
+.about-card,
+.role-card {
+    transition: all 0.3s ease;
+}
+
+.about-card:hover,
+.role-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.about-card .bi,
+.role-card .bi {
+    transition: transform 0.3s ease;
+}
+
+.about-card:hover .bi,
+.role-card:hover .bi {
+    transform: scale(1.1);
+}
