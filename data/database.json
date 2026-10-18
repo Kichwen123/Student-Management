@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Amina Hassan",
       "email": "amina.hassan@brightpath.edu",
       "age": 19,
@@ -9,7 +9,7 @@
       "course": "Software Development"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Brian Otieno",
       "email": "brian.otieno@brightpath.edu",
       "age": 21,
@@ -17,7 +17,7 @@
       "course": "Cybersecurity"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Carla Mendes",
       "email": "carla.mendes@brightpath.edu",
       "age": 20,
@@ -25,7 +25,7 @@
       "course": "Networking"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "David Kimani",
       "email": "david.kimani@brightpath.edu",
       "age": 22,
@@ -33,7 +33,7 @@
       "course": "Data Analytics"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Esther Wanjiru",
       "email": "esther.wanjiru@brightpath.edu",
       "age": 18,
@@ -41,7 +41,7 @@
       "course": "Cybersecurity"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Farid Rahman",
       "email": "farid.rahman@brightpath.edu",
       "age": 23,
@@ -49,7 +49,7 @@
       "course": "Software Development"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Grace Achieng",
       "email": "grace.achieng@brightpath.edu",
       "age": 20,
@@ -57,7 +57,7 @@
       "course": "Business IT"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Hassan Ali",
       "email": "hassan.ali@brightpath.edu",
       "age": 24,
@@ -65,7 +65,7 @@
       "course": "Data Analytics"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Irene Mutua",
       "email": "irene.mutua@brightpath.edu",
       "age": 19,
@@ -73,12 +73,42 @@
       "course": "Networking"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Joseph Njoroge",
       "email": "joseph.njoroge@brightpath.edu",
       "age": 21,
       "gender": "Male",
       "course": "Business IT"
     }
-  ]
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Mary Wanjiku",
+      "email": "mary@example.com",
+      "phone": "0723456789",
+      "department": "Computing",
+      "qualification": "BSc Computer Science",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Peter Otieno",
+      "email": "peter@example.com",
+      "phone": "0734567890",
+      "department": "Mathematics",
+      "qualification": "BEd Mathematics",
+      "status": "Active"
+    },
+    {
+      "name": "Victor Kipchirchir",
+      "email": "vkipchirchir582@gmail.com",
+      "phone": "0798691626",
+      "department": "Mathematics",
+      "qualification": "Computer science",
+      "status": "Active",
+      "id": "UKdkQk8pRxs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
